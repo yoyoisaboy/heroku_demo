@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Example</title>
+  </head>
+  <body>
+
+    <p>Welcome!</p>
+    <p><a href="./page1">page1</a></p>
+    
+    <form action="./pic">
+        <input type="submit" value="pic" />
+    </form>
+    
+    <table>
+    {% if pic %}
+        <img src="{{pic}}" />
+    {% endif %}
+    </table>
+  </body>
+</html>
