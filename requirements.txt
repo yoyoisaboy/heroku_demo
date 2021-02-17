@@ -4,3 +4,4 @@ requests
 gunicorn
 pandas
 matplotlib
+scikit-learn
