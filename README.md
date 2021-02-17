@@ -40,6 +40,7 @@ flask-Cors
 requests
 gunicorn
 pandas
+matplotlib
 ```
 請注意，要用heroku必須要加gunicorn，不然Procfile到時會裝不了。
 
